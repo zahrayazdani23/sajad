@@ -1,0 +1,118 @@
+/* reset */
+* {
+  font-family: Tahoma;
+}
+a{
+    text-decoration:none ;
+}
+
+body {
+  direction: rtl;
+  margin: 0;
+}
+
+header {
+  /* height: 130px; */
+}
+#top-header {
+  height: 75px;
+  border-bottom: 1px solid #e6e6e6;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 85px;
+  align-items: center;
+}
+#logo {
+  width: 100px;
+  /* height: 30px; */
+}
+#logo img {
+  width: 150px;
+  height: 50px;
+}
+#search {
+  display: flex;
+}
+#search input {
+  width: 500px;
+  background: #dcdcdc;
+  border: none;
+  padding: 10px 20px;
+  height: 20px;
+  border-radius: 0 23px 23px 0;
+}
+#search select {
+  background: #dcdcdc;
+  border: none;
+  border-right: 1px solid #9c9c9c;
+  padding: 0 10px;
+  width: 130px;
+}
+#search button {
+  background: dodgerblue;
+  border: none;
+  border-radius: 23px 0 0 23px;
+  color: white;
+  padding: 5px 10px;
+}
+#search button img {
+  width: 27px;
+  height: 27px;
+}
+
+#icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#icons .fa-heart {
+  font-size: 20pt;
+}
+#cart {
+  /* width: 70px;
+    height: 50px;
+    display: inline-block;
+    background:  url(../images/amazon.png)  8px 71px; */
+  margin: 0 25px;
+  font-size: 20pt;
+}
+#icons .fa-user {
+  font-size: 20pt;
+}
+.register {
+  display: flex;
+  align-items: center;
+}
+.column-register {
+  margin-right: 10px;
+}
+.row-register {
+  font-size: 10pt;
+  padding: 3px;
+}
+#bottom-header {
+  height: 55px;
+}
+#menu{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.title-menu{
+    padding: 10px;
+}
+.sub-menu{
+  width: 800px;
+  height: 200px;
+  background: white;
+}
+
+
+main {
+  height: 700px;
+  background: pink;
+}
+footer {
+  height: 300px;
+  background: gray;
+}

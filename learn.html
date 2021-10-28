@@ -1,0 +1,64 @@
+<div id="parent">
+    <div class="div" id="html">html</div>
+    <div class="div" id="css">css</div>
+    <div class="div" id="js">javaScript</div>
+</div>
+
+
+
+<span>Word</span>
+<span>Excel</span>
+<span>powerPoint</span>
+
+<br><br><br><br><br><br><br>
+display:
+inline ----> span  دنبال هم --- width نمیگیره
+block  ----> div    یک بلوک --- width میگیره
+inline-block --->  دنبال هم --- width میگیره
+
+flex  ----- مدرن
+
+
+positions:
+static:
+relative: شبیه static ; top right left bottom
+absolute: نسبت به اولین والدی که پوزیشن غیر استاتیک داشته باشد
+fixed: یک پوزیشن رو برای خود رزرو نگه می دارد
+<style>
+    
+    .div{
+        background: green;
+        margin: 10px;
+        width: 300px;
+        height: 50px;
+        
+    }
+    #css{
+        /* position: relative;
+        top:70px; */
+        position: fixed;
+        background: orange;
+        top: 10px;
+    }
+    span{
+        background: hotpink;
+        width: 300px;
+        height: 50px;
+        margin: 10px;
+        display: inline-block;
+    }
+    #parent{
+        margin-top: 50px;
+        position: relative;
+        padding: 40px;
+        background: grey;
+        height: 800px;
+    }
+</style>
+
+
+
+
+
+
+
